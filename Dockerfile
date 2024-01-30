@@ -1,5 +1,5 @@
 # see versions at https://hub.docker.com/_/ghost
-FROM ghost:5.77
+FROM ghost:5.76.0
 
 WORKDIR $GHOST_INSTALL
 COPY . .
